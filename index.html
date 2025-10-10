@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" href="assets/img/favicon_io/favicon.ico">
+        <title>Portifólio Bruna Daniella</title>
+    </head>
+    <body>
+        <nav class="navigator">
+            <div class="nav-items d-flex">
+                <div id="icone">
+                </div>
+                <a class="nav-item" href="#sobre">Sobre mim</a> 
+                <a class="nav-item" href="#servicos">Serviços</a> 
+                <a class="nav-item" href="#projetos">Projetos</a> 
+                <a class="nav-item" href="#skills">Skills</a> 
+                <a class="nav-item" href="#contato">Contato</a>
+            </div>
+        </nav>
+        <section class="yellow">
+            <span>
+                <h2 class="title">Olá!</h2>
+                <h3 class="sub">Seja muito bem vindo ao meu <span class="hover-port">portifólio</span></h3>
+                <button class="btn-clickme" onclick="trocar()">Clique para ver uma mágica</button>
+            </span>
+        </section>      
+
+        <section>
+            <div class="linguagens">
+                <img src="assets/img/js_icon.svg" class="img-svg" alt="">
+                <img src="assets/img/vue_icon.svg" class="img-svg" alt="">
+                <img src="assets/img/css3_icon.svg" class="img-svg" alt="">
+                <img src="assets/img/java_icon.svg" class="img-svg" alt="">
+                <img src="assets/img/html_icon.svg" class="img-svg" alt="">
+            </div>
+        </section>
+
+        <section class="secao-cards">
+            <div class="grid-container" >
+                <div class="card" id="Sobre">
+                    <span style="display: inline;"><img src="assets/img/sobre.gif" height="150px" alt=""></span>
+                    <p class="card-texto">
+                    <span class="card-titulo">Sobre</span>
+                     <br><br>
+                        Sou a Bruna, tenho 25 anos e sou designer e front-end. <br>
+                        Crio experiências visuais com personalidade, misturando criatividade com código. Se é pra deixar um projeto bonito, responsivo e especial, 
+                        pode contar comigo!</p>
+                </div>   
+                <div class="card" id="servicos">
+                    <span style="display: inline;"><img src="assets/img/servicos.gif" height="150px" alt=""></span>
+                    <p class="card-texto">
+                    <span class="card-titulo">Serviços</span>
+                        <br><br>
+                        Do layout à interação, cuido de cada detalhe para entregar experiências que conectam marcas e pessoas. 
+                        Seja site, landing page ou protótipo, meu foco é desenvolver soluções visuais que têm impacto.</p>
+                </div>            
+            </div>   
+            
+            <div class="grid-container" >
+                <div class="card" id="projetos">
+                    <span style="display: inline;"><img src="assets/img/projetos.gif" height="150px" alt=""></span>
+                    <p class="card-texto">
+                    <span class="card-titulo">Projetos</span>
+                        <br><br>
+                    Já mergulhei em variados projetos — desde a criação de e-mails marketing, até o desenvolvimento de formulários. 
+                    Atuei com gerenciamento de softwares, protótipos de sites com foco na UI, produzi conteúdos para social media e landing pages. </p>
+                </div>        
+                <div class="card" id="Skills">
+                    <span style="display: inline;"><img src="assets/img/skills.gif" height="150px" alt=""></span>
+                     <p class="card-texto"><span class="card-titulo">Skills</span>
+                        <br><br>
+                        Criatividade e técnica: Figma com interfaces limpas e funcionais, e no Photoshop, aquele toque que faz diferença. 
+                        Trabalho com Vue.js e JS, com aplicações web responsivas. Tudo com direito à documentação com markdown pra manter tudo organizado e direto ao ponto.
+                     </p>
+                </div>
+            </div>
+
+
+            <div class="grid-container-reverse" >
+                <div class="card" id="contato">
+                    <span style="display: inline;">
+                        <img src="assets/img/contato.gif" height="160px" alt="">
+                    </span>
+                    <p class="card-texto"><span class="card-titulo">Contato</span><br><br>
+                        <table>
+                            <thead>
+                                <th>Email</th>
+                                <th>Behance</th>
+                                <th>Artstation</th>
+                                <th>Github</th>
+                            </thead>
+                            <tbody>
+                                <td>                            <a href="mailto:bu.daniella@gmail.com" target="_blank"><img src="assets/img/mail_icon.svg" height="15px" class="mr-10" alt="Email">bu.daniella</a></td>
+                                <td><a href="https://www.behance.net/budaniella94aa?tracking_source=userSearchProfilePanel" target="_blank">
+                                <img src="assets/img/globe_icon.svg" height="15px" class="mr-10" alt="Behance">/budaniella94aa
+                            </a></td>
+                            <td>
+                            <a href="https://www.artstation.com/jinro" target="_blank"><img src="assets/img/globe_icon.svg" height="15px" class="mr-10" alt="ArtStation">jinro</a>
+
+                            </td>
+                            <td>
+                            <a href="https://github.com/bru-daniella/" target="_blank"><img src="assets/img/github_icon.svg" height="15px" class="mr-10" alt="Github">/bru-daniella/</a>
+
+                            </td>
+                            </tbody>
+                        </table>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="hero-banner"></section>
+
+        <script src="main.js" defer></script>
+    </body>
+</html>

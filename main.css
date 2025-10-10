@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.d-inline{
+    display: inline;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.navigator{
+    background-color: #FFED66;
+    color: #492c07;
+    border-bottom: 1px solid #ffe37c;
+}
+#icone{
+    background-image: url('assets/img/icone.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    margin: 10px 55px;
+}
+#icone-2-js{
+    background-image: url('assets/img/icone-js-2.png');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    margin: 10px 55px;
+
+}
+
+.btn-clickme{
+        background-color: #db8211;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 5px 10px 10px #ebd94f;
+    padding: 14px;
+    display: inline-flex
+;
+    margin: 20px 110px;
+    border-color: transparent;
+    font-weight: 700;
+}
+
+.align-center{
+    text-align: center;
+}
+.nav-items{
+
+}
+.nav-item{
+    text-decoration: none;
+    color: #492c07!important;
+    margin: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav-item:hover{
+    color: #db8211!important;
+    background-color: #e3a0491f;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.yellow{
+    background-color: #FFED66;
+    height: 400px;
+    margin-bottom: 10px;
+    border-radius: 0 0 20px 20px ;
+}
+h2.title{
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 70px 110px 0;
+    font-size: 55px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #492c07;
+}
+h3.sub{
+    margin-top: 0;
+    padding: 0 110px;
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #492c07;
+}
+.hover-port{
+    color: #db8211 !important;
+    background-color: #e3a0491f;
+    padding: 5px;
+    font-weight: 600;
+}
+.hero-banner{
+    background-size: cover;
+    height: 150px;
+    background-image: url('assets/img/hero-banner.png');
+}
+.linguagens{
+    text-align: center;
+    margin-top: 50px;
+    opacity: 25%;
+}
+.img-svg{
+    height: 80px;
+    padding: 10px 50px;
+    fill: yellow;
+}
+.secao-cards{
+    margin: 30px 60px;
+}
+
+.card{
+    background: linear-gradient(to bottom, #ffffff, #e3a0490f);
+    border-radius: 10px;
+    width: auto;
+    display: flex;
+    overflow: hidden;
+    
+}
+.mr-10{
+    margin-right: 10px;
+}
+.grid-container {
+    display: grid;
+  grid-template-columns: 2fr 2fr;
+    margin: 30px 10px;
+    gap: 20px;
+}
+.grid-container-reverse {
+    display: grid;
+    grid-template-columns: 4fr;
+
+    margin: 30px 10px
+}
+span.card-titulo{
+    font-weight: 700;
+    color: #db8211;
+} 
+.card-texto{
+    margin: 10px 20px;
+    font-size: 16px;
+    color: #492c07;
+    padding: 0 10px;
+}
+.foto{
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #icone{
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  .nav-items{
+    padding: 10px;
+  }
+  .d-flex{
+    display: block;
+  }
+    .grid-container {
+        grid-template-columns: auto;
+  }
+
+  .grid-container-reverse {
+        grid-template-columns: auto;
+  }
+  .yellow{
+        height: 50vh;
+  }
+
+  h2.title{
+    margin-bottom: 25px;
+    padding: 50px 30px 0;
+    font-size: 40px;
+  }
+
+  h3.sub{
+    margin-bottom: 25px;
+    padding: 0px 30px 0;
+    font-size: 25px;
+  }
+
+  .btn-clickme{
+    margin: 10px 30px;
+    padding: 12px
+  }
+
+  .foto {
+        margin: 30px auto;
+    }
+
+    .item-1-texto{
+        grid-area: 1/2;
+    }
+
+    .item-2-foto{
+        grid-area: 2/2;
+    }
+  
+}
