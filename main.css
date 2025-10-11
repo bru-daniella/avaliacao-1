@@ -113,7 +113,6 @@ h3.sub{
 .img-svg{
     height: 80px;
     padding: 10px 50px;
-    fill: yellow;
 }
 .secao-cards{
     margin: 30px 60px;
@@ -126,6 +125,9 @@ h3.sub{
     display: flex;
     overflow: hidden;
     
+}
+.tamanho-gif{
+    height: 150px;
 }
 .mr-10{
     margin-right: 10px;
@@ -163,14 +165,30 @@ span.card-titulo{
     padding: 10px;
     margin: 10px auto;
   }
+  #icone-2-js{
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+  }
   .nav-items{
     padding: 10px;
   }
   .d-flex{
     display: block;
   }
+  .d-block{
+    display: block!important;
+    }
     .grid-container {
         grid-template-columns: auto;
+  }
+
+  .card{
+    display: block;
+  }
+
+  .tamanho-gif{
+    height: 170px;
   }
 
   .grid-container-reverse {
@@ -178,6 +196,9 @@ span.card-titulo{
   }
   .yellow{
         height: 50vh;
+  }
+  .card-texto{
+    font-size: 15px;
   }
 
   h2.title{
@@ -208,5 +229,10 @@ span.card-titulo{
     .item-2-foto{
         grid-area: 2/2;
     }
+
+    .img-svg{
+    height: 50px;
+    padding: 25px;
+}
   
 }
